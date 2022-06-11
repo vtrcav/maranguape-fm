@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="app/assets/img/favicon.png" type="image/x-icon">
+    <title>87,9 | Maranguape FM</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="app/assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+
+
+<script language=javascript type="text/javascript">
+    function newPopup(){
+    varWindow = window.open (
+    'https://maranguapefm.com.br',
+    'pagina',
+    "width=350, height=350, top=100, left=1080, scrollbars=no " );
+    }
+    </script>
+</head>
+<body>
+    <div class="conteudo">
+        <div class="row">
+          <div class="col-sm-3 logo">
+            <a id="logo" href="?p=home"><img id="logo" src="app/assets/img/logo-maranguape-fm.svg"></a>
+        </div>
+        <!-- <div class="col">
+          <div>
+            <a href="https://instagram.com/maranguapefm" target="_blank" class="fa fa-instagram"></a>
+            <a href="https://facebook.com/maranguapefm" target="_blank" class="fa fa-facebook"></a>
+        </div>
+      </div> -->
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #004797;">
+          <div class="container-fluid">
+            <a id="navbar" class="navbar-item" href="?p=home">INICIO</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a id="navbar" class="nav-link" href="#" onclick="newPopup()">OUÇA AGORA</a>
+                <a id="navbar" class="nav-link" href="?p=programas">PROGRAMAS</a>
+                <a id="navbar" class="nav-link" href="?p=equipe">EQUIPE</a>
+                <a id="navbar" class="nav-link" href="?p=sobre">SOBRE</a>
+                <a id="navbar" class="nav-link" href="?p=contato">CONTATO</a>
+              </div>
+                
+            </div>
+          </div>
+        </nav>
+    
+    <div style="background-color:#fff;min-height:500px;padding:23px">
+    {{conteudo}}
+    </div>
+
+    <footer class="text-center text-white" style="background-color:#f7f7f7;">
+        <!-- Grid container -->
+  <div class="container pt-1">
+    <!-- Section: Social media -->
+    <section class="mb-1">
+      <!-- Facebook -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="https://facebook.com/maranguapefm"
+        role="button"
+        target="_blank"
+        data-mdb-ripple-color="dark"
+        ><i class="fa fa-facebook"></i></a>
+
+      <!-- Instagram -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="https://instagram.com/maranguapefm"
+        role="button"
+        target="_blank"
+        data-mdb-ripple-color="dark"
+        ><i class="fa fa-instagram"></i></a>      
+      
+    </section>
+    <!-- Section: Social media -->
+  </div>
+  <!-- Grid container -->
+        <!-- Copyright -->
+        <div style="background-color: #004797;">
+          <div class="text-center text-white p-3">
+            © 2022 Maranguape FM : : Desenvolvido por Vitor Cavalcante
+        </div></div>
+        <!-- Copyright -->
+      </footer>
+    </div>
+
+    
+
+</body>
+</html>

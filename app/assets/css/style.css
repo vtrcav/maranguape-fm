@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+/*  @media only screen and (min-width: 63.125rem) and (max-width: 74.9375rem){
+
+} */
+body{
+    
+    /* background-size: cover;
+    background-attachment: fixed;
+    background-size: 100% auto; */
+    -moz-osx-font-smoothing: grayscale;
+    -moz-osx-font-smoothing: grayscale;
+    background: #fff top center no-repeat;
+    background: url(../img/background.jpg);
+    background-size: 100% auto;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.conteudo{
+    display: flex;
+    justify-content: center;
+    margin: 0.4375rem auto;
+    flex-direction: column;
+    max-width:1000px;
+    
+}
+.logo{
+    margin-left: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    float: right;
+}
+img#logo{
+  width: 14rem;
+}
+@media only screen and (max-width: 600px) 
+    {
+    img#logo{
+      width: 8rem;
+    }
+    }
+p#nomeprograma{
+  font-weight: bold;
+  margin-bottom: 0;
+  font-size: 20px;
+}
+p#descricaoprograma{
+  font-size: 13px;
+}
+p#logo{
+  font-size: 20px;
+  color:#fafafa;
+  font-weight: bold;
+}
+a#navbar{
+  margin-left: 20px;
+  color: #fafafa; 
+  text-decoration: none;
+  
+}
+a#logo{
+  margin: 0;
+  
+}
+.navbar-item, .nav-link{
+  color: #fafafa; 
+  font-weight: 550;
+}
+a#navbar:hover{
+  color: #ffd51f;
+  text-decoration: none;
+}
+footer{
+  font-family: 'Roboto';
+  font-weight: 550;
+}
+.ouvir{
+  float: inline-end;
+}
+.fa {
+        font-size:25px;
+        width:25px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+    }
+    .fa:hover {
+        color: #ffd51f;
+    }
+    .fa-facebook {
+        color:#004797;
+    }
+    .fa-instagram {
+        color: #004797;
+    }
+    .fa-whatsapp {
+        color: white;
+    }
+    .fa-envelope-o {
+        color: white;
+    }
+    footer{
+        margin-top: auto;
+    }
