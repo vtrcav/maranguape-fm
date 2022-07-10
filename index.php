@@ -6,6 +6,7 @@
     require_once 'app/controller/EquipeController.php';
     require_once 'app/controller/ProgramasController.php';
     require_once 'app/controller/SobreController.php';
+    require_once 'app/controller/WebcamController.php';
     require_once 'app/controller/ContatoController.php';
 
     require_once 'vendor/autoload.php';
